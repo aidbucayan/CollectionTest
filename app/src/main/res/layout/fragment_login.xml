@@ -11,7 +11,7 @@
         android:id="@+id/login_email_et"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter test@amaysim.com email here" />
+        android:hint="Enter (0468874507) MSN or (test@amaysim.com) Email here" />
 
     <Button
         android:id="@+id/login_button_btn"

@@ -55,7 +55,7 @@ public class WelcomeFragment extends BaseFragment {
         tvDob.setText("Date of Birth: " + mJsonReturn.getData().getAttributes().getDateOfBirth());
 
         tvDataBalance = (TextView) view.findViewById(R.id.welcome_data_balance_tv);
-        tvDataBalance.setText("Your Credit: $" + mJsonReturn.getIncluded().get(1).getAttributes().getIncludedDataBalance());
+        tvDataBalance.setText("Your Data Balance: " + mJsonReturn.getIncluded().get(1).getAttributes().getIncludedDataBalance());
 
         tvDataExp = (TextView) view.findViewById(R.id.welcome_data_expiry_tv);
         tvDataExp.setText("Expiry Date: " + mJsonReturn.getIncluded().get(1).getAttributes().getExpiryDate());

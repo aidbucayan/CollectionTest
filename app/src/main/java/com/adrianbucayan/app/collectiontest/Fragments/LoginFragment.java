@@ -55,7 +55,8 @@ public class LoginFragment extends BaseFragment {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(etEmail.getText().toString().equals(mJsonReturn.getData().getAttributes().getEmailAddress())) {
+                if(etEmail.getText().toString().equals(mJsonReturn.getData().getAttributes().getEmailAddress()) ||
+                        etEmail.getText().toString().equals(mJsonReturn.getIncluded().get(0).getAttributes().getMsn())) {
                     Toast.makeText(getActivity(), "Login Successful", Toast.LENGTH_LONG).show();
 
                     WelcomeFragment welcomeFragment = new WelcomeFragment();
@@ -75,7 +76,7 @@ public class LoginFragment extends BaseFragment {
                             .commit();
 
                 } else {
-                    Toast.makeText(getActivity(), "Incorrect Email", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getActivity(), "Incorrect MSN or Email", Toast.LENGTH_LONG).show();
                 }
             }
         });
