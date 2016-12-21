@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adrianbucayan.app.collectiontest.Fragments.WelcomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/welcome_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hi, Mr Name Surname!"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/welcome_credit_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Credit is 00000"
+                android:gravity="left"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/welcome_contact_no_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Contact Number: "
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/welcome_dob_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth: 1828-19-19"
+                android:gravity="left"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Subscription"
+                android:gravity="left"
+                android:textAllCaps="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/welcome_data_balance_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Balance: 000"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/welcome_data_expiry_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Expiry Date:"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/welcome_data_renewal_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Auto Renewal: Yes"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/welcome_data_primary_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Primary Subscription: Yes"
+                android:gravity="left"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Products"
+                android:gravity="left"
+                android:textAllCaps="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/welcome_product_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product Name: "
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/welcome_product_unli_text_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unlimited Text: Yes"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/welcome_product_unli_talk_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unlimited Talk: Yes"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/welcome_product_unli_international_text_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unlimited International Text: Yes"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/welcome_product_unli_international_talk_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unlimited International Talk: Yes"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/welcome_product_price_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price: 0000"
+                android:gravity="left"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
